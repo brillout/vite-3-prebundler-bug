@@ -2,6 +2,8 @@ import React from 'react'
 import { hydrateRoot } from 'react-dom/client'
 import { PageShell } from './PageShell'
 
+console.log("[BUG] In dev, I'm loaded twice.");
+
 export { render }
 
 async function render(pageContext) {
