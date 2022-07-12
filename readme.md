@@ -25,6 +25,15 @@ Interestingly, when using the Vite CLI `$ vite`, it only occasionally logs `[vit
 ```bash
 rm -rf node_modules/.vite/
 pnpm run dev:vite
+
+  VITE v3.0.0-beta.10  ready in 1166 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+
+# Only sometimes:
+3:48:53 PM [vite] ✨ new dependencies optimized: react, react-dom/client
+3:48:54 PM [vite] ✨ optimized dependencies changed. reloading
 ```
 
 Whereas the `[vite] ✨ new dependencies optimized` logs can be reliably reproduced when using the Express.js server:
