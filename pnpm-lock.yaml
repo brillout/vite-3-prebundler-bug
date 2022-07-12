@@ -9,7 +9,7 @@ specifiers:
   react-dom: ^18.1.0
   sirv: ^2.0.2
   vite: 3.0.0-beta.10
-  vite-plugin-ssr: 0.4.3
+  vite-plugin-ssr: 0.4.4
 
 dependencies:
   '@vitejs/plugin-react': 1.3.2
@@ -20,7 +20,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   sirv: 2.0.2
   vite: 3.0.0-beta.10
-  vite-plugin-ssr: 0.4.3_vite@3.0.0-beta.10
+  vite-plugin-ssr: 0.4.4_vite@3.0.0-beta.10
 
 packages:
 
@@ -1570,8 +1570,8 @@ packages:
       ufo: 0.8.5
     dev: false
 
-  /vite-plugin-ssr/0.4.3_vite@3.0.0-beta.10:
-    resolution: {integrity: sha512-Jg/t++LkwD1kPjcyBcaTa45C8XhnQ0ZAqso8EyrutRp7R4RhqMN9sjCYxFAnkyLDaqjJyKRXxB42rdxWbp8S3A==}
+  /vite-plugin-ssr/0.4.4_vite@3.0.0-beta.10:
+    resolution: {integrity: sha512-9Iruz5iJXD47U52a/Lpt3BcGDWCnB0PTTU25TRcQbjaDz7/PxU5gqBAeJVN5dZSPpkTMasG9coq9xKlJxdCPVg==}
     engines: {node: '>=12.19.0'}
     hasBin: true
     peerDependencies:
